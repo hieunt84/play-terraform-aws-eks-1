@@ -69,7 +69,7 @@ resource "aws_route_table" "main" {
   }
 }
 
-# Route table and subnet associations
+# Route table and subnet associations (liên kết)
 resource "aws_route_table_association" "internet_access" {
   count = var.availability_zones_count
 
