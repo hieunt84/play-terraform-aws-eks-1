@@ -18,3 +18,18 @@ https://www.terraform.io/language/functions/flatten
 2/merge
 https://www.terraform.io/language/functions/merge
 
+### Data souce
+https://stackoverflow.com/questions/47721602/how-are-data-sources-used-in-terraform
+https://www.terraform.io/language/data-sources
+
+```
+The main difference between Terraform data source, resource and variable is :
+
+Resource: Provisioning of resources/infra on our platform. Create, Update and delete!
+
+Variable Provides predefined values as variables on our IAC. Used by resource for provisioning.
+
+Data Source: Fetch values from our infra/provider and and provides data for our resource to provision infra/resource.
+
+Examples are well explained above :)
+```
